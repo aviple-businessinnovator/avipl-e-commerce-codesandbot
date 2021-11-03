@@ -12,7 +12,7 @@ import Home from "./components/home/home";
 import Homepage from "./components/HomePage/App";
 import ReactGA from "react-ga";
 
-function initizeAnalytics(){
+function initizeAnalytics() {
   ReactGA.initialize("UA-211874757-1")
   ReactGA.pageview('/Homepage')
 }
