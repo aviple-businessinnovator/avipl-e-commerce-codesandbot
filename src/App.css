@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue: #0d1c6b;
+  --white: #ffffff;
+  --black: #000000;
+  --light_black: #4d4d4d;
+  --grey: #b3b3b3;
+  --off_white: #f0eded;
+  --fade_sky: #b6bfd3;
+  --sky: #b3caff;
+}

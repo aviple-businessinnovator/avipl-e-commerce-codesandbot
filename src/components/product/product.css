@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+.product-container {
+    overflow: hidden;
+}
+
+/* top-section */
+
+.product-category {
+    box-shadow: 0px 2px 20px 0px rgb(110, 110, 110);
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    position: sticky;
+}
+
+.product-opacity {
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.addtocart-status {
+    position: fixed;
+    left: calc(50% - 11%);
+    top: calc(50% - 22px);
+    height: 45px;
+    width: 23%;
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    z-index: 22;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.products {
+    display: flex;
+    padding: 7px 40px;
+    justify-content: space-between;
+    font-size: calc(6px + 1.2vw);
+}
+
+.category-heading {
+    font-weight: 700;
+    font-size: calc(11px + 1.1vw);
+}
+
+.category-options {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    list-style: none;
+    padding: 5px 0 10px 40px;
+    font-size: calc(6px + 1vw);
+}
+
+.cart-icons {
+    transform: scale(1.4);
+}
+
+.product-section {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.recommended-heading {
+    margin: 29px 0 29px 28px;
+    color: darkblue;
+    font-size: calc(8px + 1.7vw);
+}
+
+.other-heading {
+    margin: 29px 0 29px 28px;
+    color: darkblue;
+    font-size: calc(8px + 1.7vw);
+}
+
+.cards-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.basket-length {
+    position: absolute;
+    top: 0px;
+    color: red;
+}
+
+@media screen and (min-width:1000px) {
+    .basket-length {
+        top: -5px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .addtocart-status {
+        left: calc(50% - 12%);
+        top: calc(50% - 20px);
+        height: 40px;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .addtocart-status {
+        left: calc(50% - 15%);
+        top: calc(50% - 16px);
+        height: 33px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .addtocart-status {
+        left: calc(50% - 20%);
+        top: 50%;
+        height: 55px;
+        width: 42%;
+    }
+    .category-options {
+        padding-left: 23px;
+        width: 80%;
+    }
+    .products {
+        padding-left: 23px;
+        padding-right: 14px;
+    }
+    .cart-icons {
+        transform: scaleY(1);
+    }
+}

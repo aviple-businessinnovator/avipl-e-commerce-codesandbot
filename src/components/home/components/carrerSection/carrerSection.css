@@ -1,0 +1,162 @@
+.c-sec-body {
+   margin-left: 90px;
+   margin-right: 90px;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 90px;
+}
+
+.c-text {
+   display: flex;
+   flex-direction: column;
+}
+
+.c-text h2 {
+   font-family: 'Playfair Display', serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 40px;
+}
+
+.c-content {
+   width: 40%;
+   padding: 10px;
+   padding-right: 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.c-text p {
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   margin-top: 10px;
+   color: #3F3F3F;
+}
+
+.c-video {
+   cursor: pointer;
+   width: 60%;
+   height: 350px;
+   background-image: url('../../asserts/video.png');
+}
+
+.signup {
+   cursor: pointer;
+   background-color: #5A2969;
+   border-radius: 5px;
+   color: white;
+   margin-top: 20px;
+   font-size: 20px;
+   text-align: center;
+   padding: 9px 10px;
+   font-weight: 600;
+   width: 100px;
+   border: 1px solid gray;
+}
+
+@media (max-width:760px) {
+   .c-sec-body {
+      padding: 10px;
+      flex-direction: column;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 30px;
+   }
+   .c-text h2 {
+      letter-spacing: 0.3px;
+      font-size: 25px;
+      margin-bottom: 5px;
+   }
+   .c-content {
+      width: 100%;
+      padding: 2px;
+   }
+   .c-text p {
+      font-size: 13.7px;
+      line-height: normal;
+      font-weight: 400;
+      letter-spacing: 0.6px;
+      padding-right: 10px;
+      margin-bottom: 20px;
+   }
+   .c-video {
+      position: relative;
+      top: 0px;
+      width: 100%;
+      height: 190px;
+   }
+   .signup {
+      display: none;
+   }
+}
+
+@media (min-width:760px) and (max-width:1030px) {
+   .c-sec-body {
+      padding: 10px;
+      /* border: 1px solid green; */
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-bottom: 50px;
+   }
+   .c-text h2 {
+      letter-spacing: 0.3px;
+      font-size: 25px;
+      margin-bottom: 20px;
+   }
+   .c-content {
+      width: 43%;
+      padding: 2px;
+   }
+   .c-text p {
+      letter-spacing: 0.3px;
+      font-size: 20px;
+      margin-top: 10px;
+      padding-right: 10px;
+   }
+   .c-video {
+      position: relative;
+      top: 10px;
+      width: 55%;
+      height: 280px;
+   }
+   .signup {
+      display: none;
+   }
+}
+
+@media (max-width:280px) {
+   .c-sec-body {
+      flex-direction: column;
+      padding: 10px;
+      margin: 10px;
+   }
+   .c-text h2 {
+      letter-spacing: 0.5px;
+      font-size: 25px;
+      margin-bottom: 5px;
+   }
+   .c-content {
+      width: 100%;
+      padding: 2px;
+   }
+   .c-text p {
+      letter-spacing: 0.3px;
+      font-size: 13px;
+      margin-top: 5px;
+      padding-right: 5px;
+   }
+   .c-video {
+      position: relative;
+      margin-top: 20px;
+      top: 10px;
+      width: 100%;
+      height: 180px;
+      margin-bottom: 20px;
+   }
+   .signup {
+      display: none;
+   }
+}

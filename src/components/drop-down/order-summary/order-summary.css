@@ -1,0 +1,88 @@
+.order-summary {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 100%;
+}
+
+.order-summary-header {
+   display: flex;
+   align-items: center;
+   padding: 1px 10px;
+   margin-bottom: 5px;
+   justify-content: space-between;
+}
+
+.close {
+   cursor: pointer;
+}
+
+.order-summary-header h1 {
+   font-size: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.order-summary-footer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.left-left {
+   display: flex;
+   flex-direction: column;
+   margin-top: 20px;
+}
+
+.u {
+   font-size: 13px;
+   font-weight: 600;
+   color: rgb(0, 110, 255);
+}
+
+.lupper-text {
+   font-size: 13px;
+   font-weight: 600;
+   color: rgb(0, 110, 255);
+   position: relative;
+   top: -10px;
+}
+
+.totalprice {
+   color: black;
+   font-weight: 600;
+   padding-bottom: 10px;
+   font-size: 14px;
+}
+
+.right-right {
+   display: flex;
+}
+
+.place-order-btn {
+   cursor: pointer;
+   padding: 5px 10px;
+   border-radius: 20px;
+   color: white;
+   opacity: 0.9;
+   background-color: rgb(0, 110, 255);
+}
+
+.place-order-btn:hover {
+   opacity: 1;
+}
+
+@media (max-width:760px) {
+   .order-summary {
+      width: 100%;
+   }
+   .order-summary-header h1 {
+      font-size: 17 px;
+   }
+   .place-order-btn {
+      padding: 5px 5px;
+      border-radius: 10px;
+      text-align: center;
+   }
+}

@@ -1,0 +1,101 @@
+.hea{
+position: absolute;
+width: 257px;
+height: 87px;
+left: 100px;
+top: 100px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 87px;
+
+}
+
+.h1{
+    position: absolute;
+    width: 534px;
+    height: 537.32px;
+    left: 100px;
+    top: 228px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 41px;
+    
+}
+.para{
+    position: absolute;
+    width: 404px;
+    height: 537.32px;
+    left: 100px;
+    top: 288px;
+}
+.h2{
+    position: absolute;
+    width: 534px;
+    /* height: 537.32px; */
+    left: 8px;
+    top: 108px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 41px;
+}
+.pp{
+    position: absolute;
+    width: 404px;
+    /* height: 537.32px; */
+    left: 8px;
+    top: 170px;
+
+}
+.btnn{
+position: absolute;
+width: 331px;
+height: 65px;
+left: 100px;
+top: 589px;
+color: white;
+background: #592969;
+border-radius: 5px;
+}
+.btnn:hover{
+    cursor: pointer;
+}
+.immg{
+position: absolute;
+width: 500px;
+height: 500px;
+left: 628px;
+top: 153px;
+
+
+}
+.left1{
+position: absolute;
+width: 48px;
+height: 48px;
+left: 1093px;
+top: 706px;
+text-decoration: none;
+
+}
+.homepage > a{
+    font-size: 60px;
+    color: black;
+}
+.right1{
+position: absolute;
+width: 48px;
+height: 48px;
+left: 70px;
+top: 706px;
+text-decoration: none;
+
+}

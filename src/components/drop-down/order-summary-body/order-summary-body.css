@@ -1,0 +1,16 @@
+.order-summary-body {
+   display: flex;
+   flex-direction: column;
+   margin: 0px 2px;
+   width: 100%;
+   border-top: 2px solid rgba(163, 163, 163, 0.507);
+   border-bottom: 2px solid rgba(163, 163, 163, 0.507);
+   padding-bottom: 20px;
+}
+
+@media (max-width:760px) {
+   .order-summary-body {
+      width: 100%;
+      margin: 0px 0px;
+   }
+}

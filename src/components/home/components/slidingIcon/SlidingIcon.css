@@ -1,0 +1,20 @@
+.landing_page_doubt_section_sliding_icons{
+    display: flex;
+     margin-top:calc(10px + 1vw);
+     margin-bottom: calc(20px + 3vw);
+    justify-content: center;
+}
+
+.landing_page_doubt_section_sliding_icon{
+    background: var(--grey);
+    border-radius: 50%;
+    width: calc(5px + 0.5vw);
+    height:  calc(5px + 0.6vw);
+    margin: calc(1px + 0.2vw) ;
+
+}
+
+.icon1{
+    background-color: 
+    #5A2969;
+} 

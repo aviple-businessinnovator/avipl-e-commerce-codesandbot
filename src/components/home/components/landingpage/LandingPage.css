@@ -1,0 +1,358 @@
+.landing_page_container {
+    padding: calc(10px + 1vw) calc(25px + 10vw);
+    /* width: 100%; */
+}
+
+/* mission section */
+
+.landing_page_mission_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: calc(20px + 6vw);
+}
+
+.landing_page_mission_section p {
+    padding: 0 calc(20px + 3vw);
+    width: calc(100px + 30vw);
+}
+
+/* doubt section */
+
+.landing_page_doubt_section {
+    background: #EEF0FF;
+    padding: calc(20px + 3vw);
+    display: flex;
+    border-radius: 5px;
+    margin-top: calc(10px + 2vw);
+}
+
+.landing_page_doubt_section_image img {
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 4px 0px var(--grey);
+    width: calc(90px + 15vw);
+}
+
+.landing_page_doubt_section_text {
+    padding-left: calc(20px + 3vw);
+}
+
+.landing_page_doubt_section_text h1 {
+    font-weight: 500;
+}
+
+.landing_page_doubt_section_text p {
+    color: var(--light_black);
+}
+
+/* benchmarking section */
+
+.landing_page_benchmarking_section {
+    display: flex;
+    flex-direction: row;
+    background: url(../../asserts/images/happy-woman-pointing-copy-space-whiteboard\ 2.png) no-repeat;
+    position: relative;
+    margin-left: calc(-25px - 10vw);
+    padding-left: calc(15px + 2vw);
+}
+
+.landing_page_benchmarking_left_section {
+    padding-left: 250px;
+}
+
+.landing_page_benchmarking_section th {
+    padding: calc(10px + 2vw);
+    font-size: calc(14px + 0.8vw);
+    padding-right: calc(1px + 2vw);
+}
+
+.landing_page_benchmarking_section td {
+    padding: calc(8px + 1.5vw) calc(1px + 1vw) calc(8px + 1.5vw) calc(30px + 2vw);
+    font-size: calc(10px + 0.7vw);
+}
+
+.landing_page_benchmarking_section td i {
+    font-size: calc(10px + 1.5vw);
+}
+.fa-check {
+    color: green;
+}
+
+#column1 {
+    width: calc(200px + 50vw);
+    padding: calc(8px + 1.5vw) calc(1px + 0.5vw);
+}
+
+.landing_page_benchmarking_section_cornerimage img {
+    width: 15%;
+    transform: rotate(-20deg);
+    position: absolute;
+    right: -70px;
+    top: -108px;
+}
+
+/* review section */
+
+.review_section_heading {
+    text-align: center;
+    margin-top: calc(20px + 4vw);
+    margin-bottom: calc(20px + 3vw);
+}
+
+.landing_page_reviews_section {
+    display: flex;
+}
+
+.landing_page_reviews_section_responsive {
+    display: none;
+}
+
+/* learning section */
+
+.heading_section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.heading_section p {
+    background-image: url(../../asserts/images/Rectangle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: calc(10px + 1vw) calc(10px + 2vw);
+    font-weight: 700;
+    color: #5A2969;
+}
+
+.images_section {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-gap: calc(5px + 1vw);
+    height: calc(100px + 30vw);
+    text-align: center;
+    /* font-size: calc(5px + 2vw); */
+}
+
+.images_row1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: calc(3px + 0.8vw);
+}
+
+.images_row1_column1 {
+    background-image: url(../../asserts/images/3.png);
+    background-size: cover;
+    padding-top: calc(10px + 1vw);
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+
+.images_row1_column2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: calc(3px + 0.8vw);
+}
+
+.images_row1_column2_row1 {
+    background-image: url(../../asserts/images/3.png);
+    background-size: cover;
+    padding-top: calc(15px + 5vw);
+    border-radius: 10px;
+}
+
+.images_row1_column2_row2 {
+    background-image: url(../../asserts/images/3.png);
+    background-size: cover;
+    padding-top: calc(15px + 5vw);
+    border-radius: 10px;
+}
+
+.images_row1_column3 {
+    background-image: url(../../asserts/images/4.png);
+    background-size: cover;
+    color: white;
+    padding-top: calc(10px + 1vw);
+    border-radius: 10px;
+}
+
+.images_row2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: calc(3px + 0.8vw);
+}
+
+.images_row2_column1 {
+    background-image: url(../../asserts/images/6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: calc(10px + 1vw);
+    border-radius: 10px;
+    color: white;
+}
+
+.images_row2_column2 {
+    background-image: url(../../asserts/images/6.png);
+    background-size: cover;
+    color: white;
+    padding-top: calc(10px + 1vw);
+    border-radius: 10px;
+}
+
+/* feature section */
+
+.landing_page_feature_section {
+    margin-top: calc(20px + 5vw);
+    margin-bottom: calc(20px + 5vw);
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_section {
+    width: 60%;
+    margin-right: calc(10px + 1vw);
+}
+
+.left_section p {
+    color: #656565;
+}
+
+.left_section li {
+    color: #1B2C87;
+    margin: calc(5px + 1vw) 0%;
+    font-weight: 500;
+    font-size: calc(10px + 0.7vw);
+}
+
+.left_section button {
+    background: #5A2969;
+    color: white;
+    margin-left: calc(10px + 2vw);
+    border: none;
+    padding: calc(2px + 0.5vw) calc(10px + 1vw);
+    font-size: calc(10px + 0.7vw);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.left_section button:hover {
+    background: #764086;
+}
+
+.right_section img {
+    border-radius: 85px;
+    margin-top: calc(10px + 1vw);
+    height: calc(150px + 23vw);
+    width: calc(50px + 30vw);
+}
+
+/* responsive-- media query section */
+
+@media (max-width:600px) {
+    /* mission section */
+    .landing_page_mission_section {
+        display: block;
+    }
+    .landing_page_mission_section p {
+        padding: 0;
+    }
+    /* doubt section */
+    .landing_page_doubt_section {
+        display: block;
+        padding: calc(10px + 2vw) calc(20px + 3vw);
+    }
+    .landing_page_doubt_section_image img {
+        width: 100%;
+    }
+    /* benchmarking section */
+    .landing_page_benchmarking_section {
+        background: none;
+        background-color: rgb(253, 250, 238);
+        margin-right: calc(-25px - 10vw);
+    }
+    .landing_page_benchmarking_left_section {
+        padding-left: 0px;
+    }
+    .landing_page_benchmarking_section td {
+        padding-left: calc(42px + 1.5vw);
+        padding-right: 0%;
+        width: 10px;
+        font-size: 1rem;
+    }
+    .landing_page_benchmarking_section th {
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    .landing_page_benchmarking_section_cornerimage img {
+        display: none;
+    }
+    /* learning section */
+    .heading_section {
+        display: block;
+        margin-top: calc(20px + 3vw);
+    }
+    .images_section {
+        display: flex;
+        flex-direction: column;
+        height: 860px;
+    }
+    .images_row1, .images_row1_column1 {
+        display: flex;
+        flex-direction: column;
+        height: 647px;
+    }
+    .images_row1_column2 {
+        height: 1200px;
+    }
+    .images_row1_column3 {
+        height: 600px;
+    }
+    .images_row2_column1, .images_row2_column2 {
+        height: 200px;
+    }
+    /* review section */
+    .review_section_heading {
+        margin-top: calc(30px + 4vw);
+        margin-bottom: calc(40px + 3vw);
+    }
+    .landing_page_reviews_section {
+        display: none;
+    }
+    .landing_page_reviews_section_responsive {
+        display: block;
+    }
+    /* feature section */
+    .landing_page_feature_section {
+        display: block;
+        margin-top: calc(40px + 3vw);
+    }
+    .left_section {
+        width: 100%;
+    }
+    .right_section img {
+        width: 100%;
+    }
+    .left_section button {
+        font-size: 1.1rem;
+    }
+     /* feature section */
+     .left_section li {
+        font-size: 1rem;
+    }
+   
+}
+
+@media (max-width:375px) {
+  
+    /* benchmarking section */
+    
+
+    .landing_page_benchmarking_section{
+          overflow-x: scroll;
+    }
+   
+    /* feature section */
+   
+    .left_section button {
+        font-size: 1.2rem;
+    }
+}

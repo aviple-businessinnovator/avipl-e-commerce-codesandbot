@@ -1,0 +1,40 @@
+.Modal {
+   position: absolute;
+   top: 0%;
+   right: 10px;
+   z-index: 10000;
+   background-color: white;
+   width: 70%;
+   border: 1px solid #ccc;
+   box-shadow: 1px 1px 1px black;
+   padding: 16px;
+   box-sizing: border-box;
+   transition: all 0.3s ease-out;
+}
+
+@media (max-width:760px) {
+   .Modal {
+      position: absolute;
+      top: 10%;
+      right: 10px;
+      margin: 3px;
+      justify-content: center;
+      width: 95%;
+   }
+}
+
+@media (min-width: 1025px) {
+   .Modal {
+      width: 500px;
+      /* left: 59%; */
+      right: 10px
+   }
+}
+
+@media (min-width:760px) and (max-width: 1025px) {
+   .Modal {
+      top: 6%;
+      width: 500px;
+      right: 10px;
+   }
+}

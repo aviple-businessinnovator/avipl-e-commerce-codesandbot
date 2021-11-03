@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@400;500&display=swap');
+.image {
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+.app {
+   width: 100%;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 500;
+}
+
+.heading {
+   margin-top: 50px;
+   position: relative;
+   left: 92px;
+   height: 73px;
+   width: fit-content;
+   display: flex;
+   color: #5A2969;
+   justify-content: flex-start;
+   align-items: flex-end;
+   margin-bottom: 20px;
+   background-image: url('./asserts/heading-background.png');
+}
+
+.heading h3 {
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 20px;
+   padding: 13px;
+   line-height: 24px;
+   padding-top: 25px;
+   letter-spacing: 0.025em;
+}
+
+@media (max-width:760px) {
+   .heading {
+      left: 30px;
+      width: fit-content;
+      height: 50px;
+      overflow-y: hidden;
+      margin-bottom: 10px;
+   }
+   .heading h3 {
+      font-weight: bold;
+      font-size: 18px;
+      padding: 1px 4px;
+      line-height: 24px;
+      letter-spacing: 0.3px;
+   }
+}
+
+@media (min-width:760px) and (max-width:1020px) {
+   .heading {
+      left: 50px;
+      width: fit-content;
+      height: 70px;
+      margin-bottom: 10px;
+   }
+   .heading h3 {
+      font-size: 25px;
+      padding: 10px 15px;
+      line-height: inherit;
+      letter-spacing: 1px;
+   }
+}
+
+
+
+h1, h1 span {
+   font-family: 'Playfair Display', serif;
+   /* font-size: calc(15px + 2vw); */
+}
+
+p {
+   font-size: calc(9px + 0.7vw);
+   font-family: 'Poppins', sans-serif;
+}
+
+div {
+   /* font-size: calc(11px + 0.7vw); */
+}
+
+.heading_color {
+   color: #EEAD03;
+}
+
+@media (max-width:600px) {
+   h1, h1 span {
+      font-size: calc(18px + 2vw);
+   }
+   p {
+      font-size: calc(9px + 0.7vw);
+   }
+   div {
+      font-size: calc(12px + 0.7vw);
+   }
+}
+
+@media (max-width:375px) {
+   h1, h1 span {
+      font-size: calc(20px + 2vw);
+   }
+   p {
+      font-size: calc(11px + 0.7vw);
+   }
+   div {
+      font-size: calc(13px + 0.7vw);
+   }
+}

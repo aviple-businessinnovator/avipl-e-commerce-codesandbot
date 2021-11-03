@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.Navbar_logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.codesbots-logo {
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 11px 35px; */
+  padding: 20px 35px;
+  color: white;
+  font-size: 1.3rem;
+  background-color: #0d286c;
+}
+
+.Navbar_options {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Navbar_options>a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.Navbar_options>a:hover {
+  cursor: pointer;
+}
+
+.second-navbar {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .Navbar_options {
+    width: 60%;
+  }
+  .codesbots-logo {
+    font-size: 25px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .Navbar {
+    display: none;
+  }
+  .codesbots-logo {
+    font-size: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  .second-navbar {
+    display: block;
+  }
+  .toggle_navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    background-color: #0d286c;
+  }
+  .menu_icon {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .logo_title {
+    width: 100%;
+  }
+  .cart_icon {
+    position: absolute;
+    right: 18px;
+    display: flex;
+    align-items: center;
+  }
+  .toggle_navbar_options {
+    width: 100%;
+    text-align: center;
+    background-color: #0d286c;
+    color: white;
+  }
+  .nav_options {
+    padding: 10px 0px;
+  }
+  .nav_options>a {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+}

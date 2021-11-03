@@ -1,0 +1,126 @@
+.na {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border-radius: 5px;
+}
+
+.h {
+    position: absolute;
+    width: 184px;
+    height: 54px;
+    left: 101px;
+    top: 10px;
+    /* background: url(.png); */
+}
+
+.nav-input {
+    padding-left: 10px;
+    position: absolute;
+    width: 315px;
+    height: 40px;
+    left: 330px;
+    top: 22px;
+    border: none;
+    background: #F2F6FF;
+    border-radius: 10px;
+}
+
+.pt {
+    position: absolute;
+    width: 70px;
+    height: 37.77px;
+    left: 700px;
+    top: 25px;
+}
+
+.pt>a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration: none;
+    color: #787878;
+}
+
+.pt>a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.tt {
+    position: absolute;
+    width: 162px;
+    height: 38px;
+    left: 800px;
+    top: 25px;
+}
+
+.tt>a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration: none;
+    color: #787878;
+}
+
+.pt>a:hover {
+    color: black;
+}
+
+.tt>a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.ts {
+    position: absolute;
+    width: 162px;
+    height: 38px;
+    left: 950px;
+    top: 25px;
+}
+
+.nav-home-logout {
+    position: absolute;
+    height: 38px;
+    left: 1025px;
+    width: 130px;
+    top: 24px;
+    font-weight: 600;
+    font-size: 21px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #1B2C87;
+    cursor: pointer;
+}
+
+.ts>a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration: none;
+    color: #787878;
+}
+
+.ts>a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.avatar {
+    position: absolute;
+    width: 162px;
+    height: 38px;
+    left: 1150px;
+    top: 25px
+}

@@ -1,0 +1,72 @@
+/* review section */
+
+
+
+.review_cards  img{
+        border-radius: 50%;
+        width: calc(30px + 5vw);
+        height: calc(30px + 5vw);
+        position: absolute;
+        top: calc(-15px - 1.5vw);
+    }
+    
+    .review_cards{
+        background: #F8F8F8;
+      margin:0% calc(5px + 1vw);
+      padding: calc(10px + 3vw);
+      position: relative;
+      box-shadow: 2px 2px 9px rgba(79, 79, 79, 0.25);
+      border-radius: 10px;
+      
+    } 
+    
+    .card_text{
+        margin-top: calc(10px + 2vw);
+    }
+    
+    .card_bottom{
+        display: flex;
+        justify-content: space-between;
+        margin-top: calc(10px + 2vw);
+   
+    }
+    
+    .card_rating{
+        background: #FFEAB2;
+        padding: calc(1px + 0.3vw) calc(10px + 1vw);
+        border-radius: 30px;
+    }
+    .card_name{
+        font-weight: 800;
+    
+    }
+    
+    .card_rating span{
+        padding-left: calc(1px + 0.3vw);
+    }
+    
+
+    @media (max-width:600px) {
+        .review_cards  img{
+            width: calc(40px + 8vw);
+            height: calc(40px + 8vw);
+            left: calc(0px + 23vw);
+            top: calc(-25px + -2vw);
+        }
+
+        .card_text{
+            margin-top: calc(30px + 2vw);
+        }
+        
+        .card_name{
+font-size: 1rem;        
+        }
+        .card_rating{
+            padding:1px 10px;
+        }
+        
+        .card_rating span, .card_rating i{
+            font-size: 1rem;
+        }
+        
+    }
